@@ -23,9 +23,7 @@ namespace Assignment6_SRP_and_OCP
     {
         public double Salary { get; set; }
 
-        public string Id { get; set; }
-
-        public int Level { get;  }
+        public string EmployeeId { get; set; }
 
 
 
@@ -48,7 +46,7 @@ namespace Assignment6_SRP_and_OCP
     {
         public double Income { get; set; }
 
-        public double BusinessId { get; set; }
+        public string BusinessId { get; set; }
 
 
         /// <summary>
@@ -68,7 +66,7 @@ namespace Assignment6_SRP_and_OCP
     {
         public double Income { get; set; }
 
-        public double BusinessId { get; set; }
+        public string BusinessId { get; set; }
 
 
         /// <summary>
